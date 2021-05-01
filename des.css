@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    margin: 30px;
+}
+
+.brd {
+    align-items: center;
+    border-style: inherit;
+    border-spacing: px;
+}
+
+.btn {
+    font-size: xx-large;
+    font-family: Verdana;
+    border-color: gray;
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}

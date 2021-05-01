@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 320px;
+    margin-right: 320px;
+}
+
+.btn {
+    font-size: xx-large;
+    font-family: Verdana;
+    border-color: gray;
+}
