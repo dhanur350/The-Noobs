@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 3px;
+}
+body{
+    
+    background: url("https://source.unsplash.com/zlABb6Gke24/1600x900") no-repeat center center fixed;
+        background-size: cover; 
+}
+
+h1{
+    color: orangered;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.row
+
+{
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+}
+
+.col-1
+
+{
+
+    flex-basis: 50%;
+
+    min-width: 300px;
+
+}
+.btn-cont{
+    float: right;
+}
+
+.btn{
+    background: coral;
+    color: white;
+    height: 40px;
+    width: 140px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+}
+
+.form-box
+
+{
+
+    width: 300px;
+
+	height: 500px;
+
+	position: relative;
+
+    top: 45px;
+
+    left: 100px;
+
+	background: rgba(0,0,0,0.6);
+
+}
+
+.main-heading
+
+{
+
+    color: orangered;
+
+    padding-bottom: 20px;
+
+}
+
+.form
+
+{
+
+	position: relative;
+
+	margin: 0 auto 100px;
+
+	padding: 45px;
+
+    text-align: center;
+
+}
+
+img{
+    margin: 100px 0px 0px 10px;
+    opacity: 0.85;
+}
+
+.form input
+
+{
+
+	font-family: sans-serif;
+
+	outline: none;
+
+    border: none;
+
+    border-bottom: 1px solid black;
+
+	width: 175px;
+
+	margin: 0 0 15px;
+
+	padding: 15px;
+
+	font-size: 14px;
+
+}
+
+.form button
+
+{
+
+	font-family: sans-serif;
+
+	width: 100%;
+
+    color: white;
+
+	font-size: 14px;
+
+	cursor: pointer;
+
+	padding: 15px;
+
+    border: none;
+
+    background: coral;
+
+}
+
+.form .message
+
+{
+
+    font-size: 15px;
+
+	margin: 15px 0 0;
+
+    color: white;
+
+}
+
+.form .message a
+
+{
+
+	color: orangered;
+
+	text-decoration: none;
+
+}
+
+.form .register-form{
+
+	display: none;
+
+}
+
+.defination
+
+{
+
+    text-align: left;
+
+    font-size: 30px;
+
+    color: white;
+
+    font-family: 'Kaushan Script', cursive;
+
+    padding-left: 60px;
+
+}
+
