@@ -13,9 +13,20 @@ div {
     margin-left: 320px;
     margin-right: 320px;
 }
+.p{
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+}
+
 
 .btn {
     font-size: xx-large;
     font-family: Verdana;
     border-color: gray;
+    background-color: transparent;
+}
+.btn:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
 }
