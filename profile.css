@@ -1,0 +1,43 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background: url("https://source.unsplash.com/wfM1Fi-kMaY/1600x900") no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 450px;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 50px;
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+}
+p{
+    color:white;
+}
+.btn{
+    background-color: orangered;
+    color: white;
+    height: 30px;
+    width: 100px;
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+}
+h1{
+    color: orangered;
+}

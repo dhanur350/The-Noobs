@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 3px;
+    padding: 1px;
 }
 body{
     
@@ -43,6 +43,9 @@ h1{
 .btn-cont{
     float: right;
 }
+.btn-con{
+    float:right;
+}
 
 .btn{
     background: coral;
@@ -66,7 +69,7 @@ h1{
 
 {
 
-    width: 300px;
+    width: 370px;
 
 	height: 500px;
 
