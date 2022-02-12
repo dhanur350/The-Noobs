@@ -1,0 +1,178 @@
+body {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thalis1{
+    float: left;
+    width: 1000px;
+    margin-top: 180px;
+    margin-left: 700px;
+    image-resolution:inherit;
+    border: 1px solid black;
+}
+.thl2{
+    margin-left: 700px;
+    margin-top: 100px;
+    font-weight: bolder;
+}
+.thalis2{
+    float: left;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 700px;
+    image-resolution:inherit;
+    border: 1px solid black;
+}
+.box {
+    width: 900px;
+    float: right;
+    border: 1px solid black;
+    font-size: large;
+    font-style:italic;
+    color: aqua;
+}
+
+.box ul li {
+    width: 140px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.box ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.box ul li:hover {
+    background-color: green;
+    color: white;
+}
+
+.p{
+    width: 700px;
+    height: 200px;
+    margin-top: -800px;
+    margin-left: 900px;
+    background-color: gray;
+    color:aqua;
+    font-size: xx-large;
+    opacity: .8;
+    padding: 55px;
+}
+
+.p1{
+    width: 700px;
+    height: 200px;
+    margin-top: -10px;
+    margin-left: 900px;
+    background-color: gray;
+    color:aqua;
+    font-size: xx-large;
+    opacity: .8;
+    padding: 55px;
+}
+
+.b {
+    width: 400px;
+    height: 860px;
+    background-color:black;
+    opacity: .8;
+    padding: 55px;
+}
+
+.b h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+
+.b h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+}
+
+.b h4 {
+    text-align: justify;
+    color: darkgray;
+    font-weight: normal;
+}
+
+.opt form, input[type="button"] {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: .1cm;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+form, input[type="button"]:hover {
+    background-color: green;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: large;
+    border: none;
+    outline: none;
+    color: aqua;
+    padding: 12px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

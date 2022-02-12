@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+
+<head>
+
+
+  <title>Login Page</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="btn-cont">
+    <button class="btn"> <a href="about.html">About Us</a></button>
+  </div>
+  <div class="btn-cont">
+    <button class="btn"> <a href="profile.html">Profile Setup(Beta)</a></button>
+  </div><br>
+  <br><br>  <div class="btn-con">
+    <button class="btn"> <a href="Homepage.html">HomePage(Beta)</a></button>
+  </div>
+
+  <div class="main-container">
+
+    <div class="row">
+      <div class="col-1">
+        <div class="form-box">
+          <div class="form">
+            <h1>Login with</h1>
+            <form class="login-form">
+              <center>
+                <h1 class="main-heading">Email</h1>
+              </center>
+              <input class="input" type="text" placeholder="abc@xyz.com" />
+              <button class="btn">Sign in</button>
+              <p class="message"> Login with ? <a href="#">Phone</a></p>
+            </form>
+            <form class="register-form">
+              <center>
+                <h1 class="main-heading">Phone</h1>
+              </center>
+              <input type="text" id="number" placeholder="+91 xxxxx-xxxxx" />
+              <div id="recaptcha-container"></div>
+              <button type="button" onclick="phoneAuth();" class="btn">Get OTP</button>
+              
+              <input style="margin-top: 20px;" id="verificationCode" type="text"
+                placeholder="Enter your 6 digits OTP" />
+              <button type="button" onclick="codeverify();" id="login-btn" class="btn">Verify OTP</button>
+              <p class="message">Login with ?<a href="#">Email</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCEvq-cK5F2SsZQv73aTJnpVBdBn8pk3Io",
+        authDomain: "grand-song-291020.firebaseapp.com",
+        projectId: "grand-song-291020",
+        storageBucket: "grand-song-291020.appspot.com",
+        messagingSenderId: "785899682228",
+        appId: "1:785899682228:web:02f171933bdc0ef40b9ae1",
+        measurementId: "G-N45EB3RTYH"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+    <script src='./js/NumberAuthentication.js'></script>
+    <script>
+      $('.message a').click(function () { $('form').animate({ height: "toggle", opacity: "toggle" }, "slow"); });
+    </script>
+    <img src="./logo.png" height="300px" width="300px" />
+    <div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
